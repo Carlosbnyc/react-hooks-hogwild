@@ -10,8 +10,10 @@ function App() {
 		<div className="App">
 			<Nav />
 			<HogsList hogs={hogs}/>
+		
 		</div>
 	);
 }
 
 export default App;
+ 

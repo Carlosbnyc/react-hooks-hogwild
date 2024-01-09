@@ -1,18 +1,16 @@
 
 
-function hogDetails (name,specialty,greased,weight,image){
-
+function HogDetails ({name,specialty,greased,weight,medal,image}){
+console.log(name)
     return(
         <>
-          <h1>{name}</h1>
           <p>{specialty}</p>
           <p>{greased}</p>
           <p>{weight}</p>
-          <img src={image}/>
-          
+          <p>{medal}</p>
         </>
     )
 
 }
 
-export default hogDetails
+export default HogDetails
