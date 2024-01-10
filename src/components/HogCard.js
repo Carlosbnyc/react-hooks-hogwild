@@ -3,7 +3,6 @@ import HogDetails from "./HogDetails"
 
 
 function HogCard({name,specialty,greased,weight,image,medal}){
-    console.log(name)
     const [showDetails,setshowDetails] = useState (false)
     function Clickable(){
 setshowDetails(!showDetails)
