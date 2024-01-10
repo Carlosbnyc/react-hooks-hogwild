@@ -40,18 +40,9 @@ function App() {
 	}
 		
 	)
-	// function sortingByName (){
-	// 	hogs.sort((a.b) => {
-	// 		if (sortBy) {
-	// 			if (sortedByName)
-	// 		}
-	// 	})
-
-	// }
-
 
 	return (
-		<div className="App">
+		<div  className="App">
 			<Nav onCategoryChange={onCategoryChange}/>
 			<button onClick={()=>setSortedCategory("name")} >Sort by Name</button>
 			<button onClick={()=>setSortedCategory("weight")} >Sort by Weight</button>

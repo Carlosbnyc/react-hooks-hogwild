@@ -10,7 +10,7 @@ setshowDetails(!showDetails)
 
       return(
         <>
-        <div onClick={()=>Clickable()}>
+        <div className="ui eight wide column" onClick={()=>Clickable()}>
         <h1>{name}</h1>
         <img src={image}/>
         {showDetails? <HogDetails key={name} name={name} specialty={specialty} greased={greased} weight={weight} medal={medal} image={image}/>:""}
